@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sedan:ital@0;1&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Sedan", serif;
     margin: 0;
 	background-color: #C7E4C6;
 }
@@ -25,6 +26,7 @@ h1,h2,h3,h4,h5{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+	
 }
 .column{
     width: 100%;
@@ -40,7 +42,7 @@ h1,h2,h3,h4,h5{
     font-size: 1.9em;
     color: #de423a;
     padding: 10px;
-    font-family: 'Sacramento', cursive;
+    font-family: "Sedan", serif;
         
 }
 .main-header__contactInfo__phone{
@@ -146,6 +148,7 @@ h1,h2,h3,h4,h5{
 .banner{
     margin-top:-52px;
     position: relative;
+	
 }
 .banner:before {
     content: '';
@@ -172,6 +175,10 @@ h1,h2,h3,h4,h5{
     transform: translateX(-50%) translateY(-50%);
     font-size: 1.5em;
     font-weight:bold;
+	font-family: "Sedan", serif;
+	font-weight: 200;
+	letter-spacing: 3px;
+	margin-top: 40px;
     
 }
 
@@ -191,6 +198,9 @@ h1,h2,h3,h4,h5{
 .column__title{
 	font-size: 1.3em;
 }
+
+
+
 .main__about_description .column:nth-child(2){
 	padding: 10px;
 }
@@ -217,11 +227,14 @@ h1,h2,h3,h4,h5{
 .today-special .column {
 	margin-bottom: 30px;
 	text-align: center;
+	
+	
 }
 
 .today-special__img{
 	margin: auto;
 	max-width: 350px;
+	background-color: white;
 }
 
 .today-special__tittle{
@@ -267,6 +280,8 @@ h1,h2,h3,h4,h5{
 /*----------------Estilos Responsivos------------------*/
 
 @media screen and (min-width:480px){
+	
+
 	.logo{
 		color: #fff;
 		
@@ -292,13 +307,22 @@ h1,h2,h3,h4,h5{
 	}
 	.column--50{
 		width: 49%;
+		
 	}
 	.column--50--25{
 		width: 49%;
+		color:#2E7C31;
+		font-weight: 900;
+		
 	}
+
+	
+
 	.column--33{
 		width: 32%;
 	}
+
+	
 	
 	.main__about_description .column:nth-child(2){
 		padding-left: 20px;
@@ -318,12 +342,13 @@ h1,h2,h3,h4,h5{
 	}
 	.main-footer .container--flex{
 		align-items: flex-start;
+		
 	}
 	
 	
 }
 @media screen and (min-width:1024px){
-.container{
+	.container{
 		width: 1000px
 	}
 	.logo{
@@ -375,6 +400,7 @@ h1,h2,h3,h4,h5{
 	}
 	.main__title{
 		font-size: 2.5em;
+		
 	}
 	.main__about_description .column--50:nth-child(2) .column__txt
 	{
@@ -382,6 +408,8 @@ h1,h2,h3,h4,h5{
 		text-align: justify;
 		
 	}
+
+	
 	.group__title{
 		font-size: 2.5em;
 	}
