@@ -1,0 +1,14 @@
+
+
+.form-container{
+    width: 800px;
+    margin: 0 auto;
+    padding:20px;
+    background-color: #2E7C31;
+    border-radius: 20px;
+    
+}
+
+.form-control{
+    margin-bottom: 20px;
+}
