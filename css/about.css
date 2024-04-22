@@ -7,10 +7,15 @@
 }
 .our-team__title{
 	font-family: 'Pacifico',cursive;
-	color: #de423a;
+	color: #2E7C31;
 	font-size: 1.8em;
 	margin-bottom: 10px;
 }
+
+.group__title{
+	color:#2E7C31;
+}
+
 .our-team__img
 {
 	width: 180px;
@@ -22,6 +27,7 @@
 .our-team__txt{
 	padding: 10px;
 	text-align:justify;
+	color:#2E7C31;	
 }
 
 @media screen and (min-width:480px){
