@@ -6,6 +6,7 @@
     padding:20px;
     background-color: #2E7C31;
     border-radius: 20px;
+    margin-bottom: 50px;
     
 }
 
@@ -18,6 +19,27 @@
 }
 .menu__link:hover{
     color:white;
+}
+
+.map {
+
+    display: flex;
+    justify-content: center;
+}
+
+.map div{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.map div h1{
+    margin-bottom: 10px;
+    color: #2E7C31;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 480px) {

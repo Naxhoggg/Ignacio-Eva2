@@ -11,7 +11,6 @@ body{
     box-sizing: border-box; 
     text-decoration: none; /* elimina todas las decoraciones de texto, tales como subrayado en <a>*/
     list-style: none; /*elimina las viñetas o numero de las listas*/
-    text-transform: capitalize;
     color: white;
 }
 
